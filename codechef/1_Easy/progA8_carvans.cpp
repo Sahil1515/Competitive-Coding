@@ -1,36 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     int t, n;
-    
-    scanf("%d",&t);
-    while(t!=0)
+
+    scanf("%d", &t);
+    while (t != 0)
     {
-        scanf("%d",&n);
-        int * arr=(int *)malloc(n*sizeof(int));
-        for(int i=0;i<n;i++)
-        scanf("%d",&arr[i]);
-        
-        int count =1;
-        if(n==1)
+        scanf("%d", &n);
+        int *arr = (int *)malloc(n * sizeof(int));
+        for (int i = 0; i < n; i++)
+            scanf("%d", &arr[i]);
+
+        int count = 1;
+        if (n == 1)
         {
-            printf("%d\n",count);
+            printf("%d\n", count);
             t--;
             continue;
         }
-        
-        for(int i=1;i<n;i++)
+
+        for (int i = 1; i < n; i++)
         {
-            if(arr[i-1]>arr[i])
-            count++;
-            else arr[i]=arr[i-1];
+            if (arr[i - 1] > arr[i])
+                count++;
+            else
+                arr[i] = arr[i - 1];
         }
-        printf("%d\n",count);
+        printf("%d\n", count);
         t--;
     }
-	// your code goes here
-	return 0;
+    // your code goes here
+    return 0;
 }
 
 // Input:

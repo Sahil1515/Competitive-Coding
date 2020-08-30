@@ -1,17 +1,15 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 	// your code goes here
 	int n;
-	while(1)
+	while (1)
 	{
-	    scanf("%d",&n);
-	    if(n==42)
-	    break;
-	    printf("%d\n",n);
+		scanf("%d", &n);
+		if (n == 42)
+			break;
+		printf("%d\n", n);
 	}
 	return 0;
-
-	
 }
-

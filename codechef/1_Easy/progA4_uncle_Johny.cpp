@@ -1,35 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int t, n,k;
-    
-    scanf("%d",&t);
-    while(t!=0)
+int main()
+{
+    int t, n, k;
+
+    scanf("%d", &t);
+    while (t != 0)
     {
-        scanf("%d",&n);
-        int * arr=(int *)malloc(n*sizeof(int));
-        for(int i=0;i<n;i++)
-        scanf("%d",&arr[i]);
-        scanf("%d",&k);
-        int num=arr[k-1];
-        
-        sort(arr,arr+n);
-        
-        for(int i=0;i<n;i++)
+        scanf("%d", &n);
+        int *arr = (int *)malloc(n * sizeof(int));
+        for (int i = 0; i < n; i++)
+            scanf("%d", &arr[i]);
+        scanf("%d", &k);
+        int num = arr[k - 1];
+
+        sort(arr, arr + n);
+
+        for (int i = 0; i < n; i++)
         {
-            if(arr[i]==num)
+            if (arr[i] == num)
             {
-                printf("%d\n",i+1);
+                printf("%d\n", i + 1);
                 break;
             }
         }
         t--;
     }
-	// your code goes here
-	return 0;
+    // your code goes here
+    return 0;
 }
-
 
 // Input:
 // 3
@@ -40,7 +40,7 @@ int main() {
 // 1 2 3 9 4
 // 5
 // 5
-// 1 2 3 9 4 
+// 1 2 3 9 4
 // 1
 
 // Output:

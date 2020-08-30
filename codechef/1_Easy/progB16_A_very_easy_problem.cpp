@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 	// your code goes here
 	cout << "137=2(2(2)+2+2(0))+2(2+2(0))+2(0)\n1315=2(2(2+2(0))+2)+2(2(2+2(0)))+2(2(2)+2(0))+2+2(0)\n";
 	cout << "73=2(2(2)+2)+2(2+2(0))+2(0)\n";
