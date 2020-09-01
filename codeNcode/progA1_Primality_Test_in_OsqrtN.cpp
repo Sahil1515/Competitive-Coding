@@ -7,7 +7,7 @@ bool isPrime(int n)
     {
         return false;
     }
-    for (int i = 2; i <= n; i++)
+    for (int i = 2; i < n; i++)
     {
         if (n % i == 0)
         {
@@ -21,6 +21,6 @@ int main()
     int n;
     scanf("%d", &n);
 
-    cout << bool(n);
+    cout << isPrime(n);
     return 0;
 }
