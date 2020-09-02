@@ -48,8 +48,8 @@ int main()
     int a,n;
     scanf("%d%d",&a,&n);
 
-    printf("%lld\n",power(a,n));
-    printf("%lld\n",power_modulo(a,n,100000007));
+    printf("%d ^ %d is :%lld\n",a,n,power(a,n));
+    printf("(%d ^ %d ) modulo 100000007 is :%lld\n",a,n,power_modulo(a,n,100000007));
 
     return 0;
 }
