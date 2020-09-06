@@ -50,3 +50,42 @@ bool isCyclic(int V, vector<int> adj[])
 
 // Execution Time:0.26
 // Marks 4
+
+
+
+// void dfs(int s, int visited[], vector<int> adj[],int *flag)
+// {
+//     visited[s]=1;
+    
+//     for(auto i: adj[s])
+//     {
+//         if(visited[i]==0)
+//         dfs(i,visited,adj,flag);
+//         else if (visited[i]==1)
+//         {
+//             *flag=1;
+//             break;
+//         }
+//     }
+//     visited[s]=2;
+    
+// }
+// bool isCyclic(int V, vector<int> adj[])
+// {
+    
+//     int visited[V];
+    
+//     for(int i=0;i<V;i++)
+//     visited[i]=0;
+    
+//     int flag=0;
+    
+//     for(int i=0;i<V;i++)
+//     if(visited[i]==0)
+//     dfs(i,visited,adj,&flag);
+    
+//     if(flag==1)
+//     return true;
+//     else return false;
+    
+// }
