@@ -9,7 +9,6 @@ using namespace std;
 stack<int> s1;
 void DFS(vector<int> adj[],int V, int visited[], int s,int *flag)
 {
-    
     s1.push(s);
     visited[s]=0;
     

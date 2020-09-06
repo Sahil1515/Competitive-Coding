@@ -169,8 +169,9 @@ void printSpiral(Node *root)
       if(q.empty()==true)
         break;
   }
-    
-    
-    
-    
+
 }
+
+// https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+
+// using stacks is easier
