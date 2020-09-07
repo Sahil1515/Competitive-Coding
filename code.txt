@@ -1,0 +1,47 @@
+95 40
+1 77 22 2 49 1 0 2 73 4 3 1 58 91 79 2 7 6 33 8 49 83 88 26 21 18 45 79 43 34 14 42 14 36 44 60 35 44 62 10 45 62 11 9 58 90 8 62 93 42 68 48 30 58 71 51 74 22 36 19 53 47 61 67 83 10 32 20 52 91 30 2 58 42 11 18 34 17 81 33
+
+set<int> s1;
+void DFS(vector<int> adj[],int V, bool visited[], int s,int *flag)
+{
+    
+    visited[s]=true;
+    s1.insert(s);
+    
+    for(auto i=adj[s].begin();i!=adj[s].end();i++)
+    {
+        if(!visited[*i])
+        {
+            DFS(adj,V,visited,*i,flag);
+        }
+        else if(*(s1.find(*i))==*i)
+        {
+            *flag=1;
+        }
+    }
+    s1.erase(s);
+}
+bool isCyclic(int V, vector<int> adj[])
+{
+    // Your code here
+    s1.clear(); 
+    bool visited[V];
+    for(int i=0;i<V;i++)
+    visited[i]=false;
+    int flag=0;
+    
+    for(int i=0;i<V;i++)
+    {
+        if(!visited[i])
+        DFS(adj,V,visited,i,&flag);
+    }
+    s1.clear();
+    if(flag==0)
+    {
+       return false;
+    }
+    else return true;
+    
+    
+    
+}
