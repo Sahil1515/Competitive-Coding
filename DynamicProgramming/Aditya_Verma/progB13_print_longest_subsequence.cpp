@@ -48,4 +48,3 @@ int main()
     }
 }
 
-// Execution Time:0.01
