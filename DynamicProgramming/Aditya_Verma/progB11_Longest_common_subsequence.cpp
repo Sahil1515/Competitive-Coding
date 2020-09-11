@@ -15,7 +15,7 @@ int main()
         int len1=a.length();
         int len2=b.length();
 
-        int dp[len1+1][len2+2];
+        int dp[len1+1][len2+1];
 
      
         for(int i=0;i<=len1;i++)
