@@ -82,3 +82,9 @@ int QueueStack :: pop()
 }
 
 // Not in practice session
+
+// For Input:
+// 5
+// 1 2 1 3 2 1 4 2
+// Your Output is:
+// 3 4 
