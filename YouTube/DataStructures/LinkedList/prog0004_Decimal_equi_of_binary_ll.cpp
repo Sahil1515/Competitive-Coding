@@ -89,10 +89,6 @@ long long unsigned int decimalValue(Node *head)
    return sum;
 }
 
-// 24374
-// 2045152
-
-// 976371284
 
 // Execution Time:0.01
 
