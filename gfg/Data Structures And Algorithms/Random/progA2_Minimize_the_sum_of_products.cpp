@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace
+using namespace std;
 int main() {
 	//code
 	int t;

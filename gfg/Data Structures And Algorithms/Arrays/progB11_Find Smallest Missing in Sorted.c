@@ -60,5 +60,7 @@ int main()
 // 0
 // 4
 // 8
-// Given a sorted array Arr[] of N distinct integers where each integer is in the range from 0 to M-1 and M > N. You need to write a program to find the smallest number that is missing from the array. For example, if the array is Arr[] = {0, 1, 2, 6, 9} and n = 5, m = 10. Then the smallest missing number is 3.
+// Given a sorted array Arr[] of N distinct integers where each integer is in the range from 0 to M-1 and M > N. 
+// You need to write a program to find the smallest number that is missing from the array. For example, 
+// if the array is Arr[] = {0, 1, 2, 6, 9} and n = 5, m = 10. Then the smallest missing number is 3.
 // Note: Array does not contain repetitive elements.
