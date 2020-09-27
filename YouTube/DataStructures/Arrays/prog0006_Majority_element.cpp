@@ -38,4 +38,6 @@ int main() {
 	return 0;
 }
 
+// Those elements which occur for more than n/2 times
+
 // Execution Time:0.1
