@@ -1,3 +1,5 @@
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -61,6 +63,7 @@ int main()
 
 }
 
+// Note here i have used the array of vectors
 
     // 1 2 3
     // 4 5 6
