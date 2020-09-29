@@ -1,4 +1,15 @@
 
+
+
+
+// Given an integer N denoting the Length of a line segment. 
+// you need to cut the line segment in such a way that the cut 
+// length of a line segment each time is integer either x , y or z.
+// and after performing all cutting operation the total number of 
+// cutted segments must be maximum. 
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
