@@ -32,7 +32,7 @@ void factorial(int n)
 
     for(int i=res_size-1;i>=0;i--)
     {
-      printf("%d ",res[i]);
+      printf("%d",res[i]);
     }
 }
 
