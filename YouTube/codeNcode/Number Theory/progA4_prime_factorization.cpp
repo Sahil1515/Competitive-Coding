@@ -32,15 +32,15 @@ void prime_fact(int n)
         {
             int count=0;
             while(n%i==0)
-            count++;
+            count++,n=n/i;
             cout<<i<<"^"<<count;
             printf("\n");
 
         }
-        if(n>1)
-        cout<<i<<"^"<<1;
-
     }
+        if(n>1)
+        cout<<n<<"^"<<1;
+
 }
 int main()
 {
@@ -49,3 +49,6 @@ int main()
     prime_fact(n);
     return 0;
 }
+
+
+// we can calculate it in log(n) also

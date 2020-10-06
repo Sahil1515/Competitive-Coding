@@ -6,7 +6,8 @@ vector<int> v;
 void sieve()
 {
     int n = 10000000;
-    bool arr[n + 1] = {true};
+    bool arr[n + 1]; 
+    memset(arr,true,sizeof(arr));
     arr[0] = arr[1] = false;
 
     for (int i = 2; i * i < n; i++)
