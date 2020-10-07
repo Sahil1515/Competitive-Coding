@@ -1,9 +1,10 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 
 void insert(stack<int> &stk, int temp)
 {
-    if(stk.size()==0 || stk.top()>temp)
+    if(stk.size()==0)
     {
         stk.push(temp);
         return;
@@ -16,18 +17,29 @@ void insert(stack<int> &stk, int temp)
     stk.push(ele);
 }
 
-void sort_stk(stack<int> &stk)
+void rev_stk(stack<int> &stk)
 {
-    if(stk.size()==1)
+    if(stk.size()==0)
     return;
 
     int temp=stk.top();
     stk.pop();
 
-    sort_stk(stk);
+    rev_stk(stk);
     insert(stk,temp);
-
 }
+
+void show(stack<int> stk)
+{ 
+    if(stk.empty()==true)
+    return;
+    int ele=stk.top();
+    stk.pop();
+    show(stk);
+
+    printf("%d ",ele);
+}
+
 int main()
 {
     stack<int> stk;
@@ -40,13 +52,9 @@ int main()
         stk.push(ele);
     }
 
-    sort_stk(stk);
+    rev_stk(stk);
 
-    while(stk.empty()==false)
-    {
-        printf("%d ",stk.top());
-        stk.pop();
-    }
+    show(stk);
 
     return 0;
 }
