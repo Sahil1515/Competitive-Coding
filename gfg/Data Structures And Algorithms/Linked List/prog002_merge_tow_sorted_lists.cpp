@@ -38,7 +38,7 @@ int main()
     {
         int n,m;
         cin>>n>>m;
-
+ 
         int data;
         cin>>data;
         struct Node *head1 = new Node(data);
