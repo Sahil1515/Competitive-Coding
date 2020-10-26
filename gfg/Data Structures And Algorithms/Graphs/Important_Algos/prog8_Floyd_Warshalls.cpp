@@ -24,9 +24,9 @@ int main() {
 	        {
 	            for(int j=0;j<V;j++)
 	            {
-	                if(graph[i][j]>graph[k][j]+graph[i][k])
+	                if(graph[i][j]>graph[i][k] + graph[k][j])
 	                {
-	                    graph[i][j]=graph[k][j]+graph[i][k];
+	                    graph[i][j]=graph[i][k] + graph[k][j];
 	                }
 	            }
 	        }

@@ -48,3 +48,6 @@ int main() {
 
 // Execution Time:0.15
 // Marks: 2
+
+
+// int * arr=(int *)malloc(n*sixeof(int));
