@@ -9,7 +9,15 @@ int func(string str1, string str2)
     
     int dp[n+1][m+1];
     
-    memset(dp,-1,sizeof(dp));
+    // memset(dp,-1,sizeof(dp));
+
+    for(int i=0;i<=n;i++)
+    {
+        for(int j=0;j<=m;j++)
+        {
+            dp[i][j]=-1;
+        }
+    }
     
     for(int i=0;i<=n;i++)
     {
