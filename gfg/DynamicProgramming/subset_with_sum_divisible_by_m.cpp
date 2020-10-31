@@ -41,15 +41,15 @@ class Solution{
                 cout<<"\n";
 		    }
 		    
-		    int flag=0;
-		    for(int i=m;i<=sum;i++)
-		    {
-		            if(dp[n][i]==1)
-		            flag=flag || i%m==0;
+		    // int flag=0;
+		    // for(int i=m;i<=sum;i++)
+		    // {
+		    //         if(dp[n][i]==1)
+		    //         flag=flag || i%m==0;
 		            
-		            if(flag==1)
-		            break;
-		    }
+		    //         if(flag==1)
+		    //         break;
+		    // }
 		    
 		    return flag;
 		  
