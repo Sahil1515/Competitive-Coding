@@ -1,0 +1,79 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int vis[11][11];
+int maxi=0;
+int row[8]={-1,-1,0,1,1,1,0,-1};
+int col[8]={0,1,1,1,0,-1,-1,-1};
+
+bool isValid(int i, int j,vector<vector<int>> matrix)
+{
+    int n=matrix.size();
+    int m=matrix[0].size(); 
+    return (vis[i][j]==0 && i<n && i>=0 && j<m && j>=0 && matrix[i][j]==1);
+}
+
+void dfs(int i,int j,vector<vector<int>> matrix)
+{
+    maxi++;
+    vis[i][j]=1;
+    for(int ij=0;ij<8;ij++)
+    {
+        int x=row[ij];
+        int y=col[ij];
+        if(isValid( i+x, j+y, matrix))
+        {
+           
+            dfs(i+x,j+y, matrix);
+        }   
+    }
+}
+
+// Complete the connectedCell function below.
+int connectedCell(vector<vector<int>> matrix) {
+    
+    int localMaxi=0;
+    for (int i=0;i<(int)matrix.size(); i++) {
+    for (int j=0; j<(int)matrix[0].size(); j++) {
+        
+        if(isValid(i, j, matrix))
+        dfs( i, j,matrix), localMaxi=max(maxi,localMaxi),maxi=0;
+    }
+    }
+   
+    return localMaxi;
+}
+
+int main()
+{
+    ofstream fout(getenv("OUTPUT_PATH"));
+
+    int n;
+    cin >> n;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    int m;
+    cin >> m;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    vector<vector<int>> matrix(n);
+    for (int i = 0; i < n; i++) {
+        matrix[i].resize(m);
+
+        for (int j = 0; j < m; j++) {
+            cin >> matrix[i][j];
+        }
+
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+
+    int result = connectedCell(matrix);
+
+    fout << result << "\n";
+
+    fout.close();
+
+    return 0;
+}
+

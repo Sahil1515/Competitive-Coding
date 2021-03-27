@@ -10,7 +10,7 @@ int col[4] = {-1, 0, 1, 0};
 
 bool isSafe(int x, int y)
 {
-    return (x > 0 && x < n && y > 0 && y < m && arr[x][y] == 1 && vis[x][y] == 0);
+    return (x >= 0 && x < n && y >= 0 && y < m && arr[x][y] == 1 && vis[x][y] == 0);
 }
 
 void dfs(int x, int y)
