@@ -1,5 +1,4 @@
 ```
-
 .
 ├── 001_GFG
 │   ├── Company Wise
@@ -18,7 +17,94 @@
 │   │       ├── vid4_topological_sort.cpp
 │   │       ├── vid5_longest_common_subseq.cpp
 │   │       └── vid6_largest_sum_cont_subarr_Kardane_ALgo.cpp
-│   ├── Data Structures And Algorithms
+│   ├── Data-Structures-And-Algorithms-Self-Placed
+│   │   ├── 01 Mathematics
+│   │   │   ├── prog0001_celcius_to_fernehite.cpp
+│   │   │   ├── prog0002_Trailing_zeroes_in_factorial.c
+│   │   │   ├── prog01_count_digits.cpp
+│   │   │   ├── prog02_palindromeNumber.cpp
+│   │   │   ├── prog03_Factorial_of_no.cpp
+│   │   │   ├── prog04_Trailing_Zeros.cpp
+│   │   │   ├── prog05_GCD.cpp
+│   │   │   ├── prog06_LCM.cpp
+│   │   │   ├── prog07_Check_for_prime.cpp
+│   │   │   ├── prog08_Prime_Factors.cpp
+│   │   │   ├── prog09_All_Divisors_of_number.cpp
+│   │   │   ├── prog10_Sieve_of_Eratosthenes.cpp
+│   │   │   ├── prog11_Compute_power.cpp
+│   │   │   └── prog12_pow_function.cpp
+│   │   ├── 04 Arrays
+│   │   │   ├── kardanes_algo.cpp
+│   │   │   ├── max1_max2.cpp
+│   │   │   ├── mean_median.cpp
+│   │   │   ├── rearrange_array_in_O1_space.cpp
+│   │   │   ├── trailing_zeroes.cpp
+│   │   │   └── wave_array.cpp
+│   │   ├── 07 Matrix
+│   │   │   ├── 2D_array_columns_reverse
+│   │   │   ├── 2D_array_columns_reverse.cpp
+│   │   │   └── Practice
+│   │   │       ├── BOundary_traversal_of_a_matrix.cpp
+│   │   │       ├── Exchange_matrix_columns.cpp
+│   │   │       ├── reverse_the_columns.cpp
+│   │   │       ├── Reversing_the_columns_of_a_Matrix.cpp
+│   │   │       ├── rotate_by_90_Anti_clockwise.cpp
+│   │   │       ├── Search_in_a_row_column_sorted_Matrix.cpp
+│   │   │       └── Spirally_traversing_a_matrix.cpp
+│   │   ├── 09 Strings
+│   │   │   ├── if_anagram.cpp
+│   │   │   ├── reverse_words_in_string
+│   │   │   └── reverse_words_in_string.cpp
+│   │   ├── 10 Linked List
+│   │   │   └── prog001_Delete_Middle_of_ll.cpp
+│   │   ├── 14 Tree
+│   │   │   ├── check_if_subtree.cpp
+│   │   │   ├── children_sum_parent.cpp
+│   │   │   ├── Lowest_Common_Ancestor_in_a_Binary_Tree.cpp
+│   │   │   ├── max_width_of_tree.cpp
+│   │   │   └── right_view_of_tree.cpp
+│   │   ├── 17 Graph
+│   │   │   ├── level_of_nodes.cpp
+│   │   │   ├── prog0001_print_adj_list.cpp
+│   │   │   ├── X_total_shapes
+│   │   │   └── X_total_shapes.cpp
+│   │   ├── 20 Dynamic Programming
+│   │   │   ├── 001_fibonacci_memoization
+│   │   │   ├── 001_fibonacci_memoization.cpp
+│   │   │   ├── 002_fibo_bottom_up.cpp
+│   │   │   ├── 003_print_fibo_vector
+│   │   │   └── 003_print_fibo_vector.cpp
+│   │   ├── BitMagic
+│   │   ├── CodeNcode
+│   │   │   └── GraphTheory
+│   │   │       └── vid__0017__BFS.cpp
+│   │   ├── LinkedList
+│   │   │   ├── check_if_identical.cpp
+│   │   │   ├── delete_without_head_pointer.cpp
+│   │   │   ├── insert_at_given_pos_DDL.cpp
+│   │   │   ├── linkedList_Insertions.cpp
+│   │   │   ├── remove_dups_from_unsorted_SLL.cpp
+│   │   │   └── rempve_dups_from_sorted_SLL.cpp
+│   │   ├── Practice gfg
+│   │   │   ├── 001_length_of_longest_palindrome_in_a_string
+│   │   │   ├── 001_length_of_longest_palindrome_in_a_string.cpp
+│   │   │   ├── 002_permutations_of_a_string.cpp
+│   │   │   ├── 003_check_for_prime_number
+│   │   │   ├── 003_check_for_prime_number.cpp
+│   │   │   ├── 004_sieve_of_Eratosthenes.cpp
+│   │   │   └── 005_reach_given_score.cpp
+│   │   └── Stacks
+│   │       ├── 000_Analysis
+│   │       ├── 001_Removing_consecutive_duplicates.cpp
+│   │       ├── 002_Removing_consecutive_duplicates _2.cpp
+│   │       ├── 003_Parenthesis_checker.cpp
+│   │       └── delete_middle_element.cpp
+│   ├── dp_again
+│   │   ├── catalan_usingBinomial
+│   │   ├── catalan_usingBinomial.cpp
+│   │   ├── ncr_in_simple_way
+│   │   └── ncr_in_simple_way.cpp
+│   ├── DSA Problems
 │   │   ├── Arrays
 │   │   │   ├── Equilibrium_point_in_array.cpp
 │   │   │   ├── progA10_Missing number in array.cpp
@@ -159,11 +245,6 @@
 │   │       ├── progB19_Boundary_Traversal_of_binary_tree.cpp
 │   │       ├── progC20.Check_for_BST.cpp
 │   │       └── tempCodeRunnerFile.cpp
-│   ├── dp_again
-│   │   ├── catalan_usingBinomial
-│   │   ├── catalan_usingBinomial.cpp
-│   │   ├── ncr_in_simple_way
-│   │   └── ncr_in_simple_way.cpp
 │   ├── practice
 │   │   ├── Count_zeros_in_a_sorted_matrix.cpp
 │   │   ├── geeko_nacci.cpp
@@ -519,7 +600,56 @@
 │   ├── level_traversal.txt
 │   ├── topics
 │   └── VSextensions
+├── 450_set
+│   ├── Arrays
+│   │   ├── 0015.cpp
+│   │   ├── 0017.cpp
+│   │   ├── 001_Reverse_The_array.cpp
+│   │   ├── 0023.cpp
+│   │   ├── 0024.cpp
+│   │   ├── 0025.cpp
+│   │   ├── 0027.cpp
+│   │   ├── 002_Min_and_max_ele_in_array.cpp
+│   │   ├── 003_Sort012.cpp
+│   │   ├── 004_Rearrange_neg_and_pos_numbers
+│   │   ├── 004_Rearrange_neg_and_pos_numbers.cpp
+│   │   ├── 005_Rotate_Array.cpp
+│   │   ├── 006_Find_largest_sum_conti_array.cpp
+│   │   └── 007_Find_one_dup_num.cpp
+│   └── Matrix
+│       ├── 0037.cpp
+│       ├── 0038.cpp
+│       ├── 0040.cpp
+│       ├── 0041.cpp
+│       └── 0044.cpp
+├── CSES-Problem-Set
+│   ├── Introductory
+│   │   ├── 001_WeirdAlgo
+│   │   ├── 001_WeirdAlgo.cpp
+│   │   ├── 002_missing_number.cpp
+│   │   ├── 003_Repetitions.cpp
+│   │   ├── 004_IncreasingArray
+│   │   ├── 004_IncreasingArray.cpp
+│   │   ├── 004_Permutations
+│   │   ├── 004_Permutations.cpp
+│   │   ├── 005_SpiralNumber
+│   │   ├── 005_SpiralNumber.cpp
+│   │   ├── 006_TwoKnights.cpp
+│   │   ├── 007_TwoSets
+│   │   ├── 007_TwoSets.cpp
+│   │   ├── 010_TrailingZeros
+│   │   ├── 010_TrailingZeros.cpp
+│   │   ├── 011_CoinPiles
+│   │   ├── 011_CoinPiles.cpp
+│   │   ├── 012_PalindromeReorder
+│   │   ├── 012_PalindromeReorder.cpp
+│   │   ├── temp
+│   │   ├── tempCodeRunnerFile.cpp
+│   │   ├── temp.cpp
+│   │   ├── Trailing_Zeroes
+│   │   └── Trailing_Zeroes.cpp
+│   └── LICENSE
 └── Readme.md
 
-67 directories, 452 files
+88 directories, 562 files
 ```
