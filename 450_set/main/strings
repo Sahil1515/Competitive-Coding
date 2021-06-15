@@ -1,0 +1,11 @@
+https://www.geeksforgeeks.org/strings-library-in-cpp-stl/
+
+str.begin()
+str.end()
+
+str.front()
+str.back()
+
+size_t found = str.find(str1);
+    if (found != string::npos)
+        cout << "First occurrence is " << found << endl;
