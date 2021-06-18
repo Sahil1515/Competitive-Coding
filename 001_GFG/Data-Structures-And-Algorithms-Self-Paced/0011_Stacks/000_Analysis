@@ -1,7 +1,0 @@
-
-
-Before using pop() or top(), just check if it is empty or not
-
-i.e give condition in if block
-
-if (!stk.empty())
